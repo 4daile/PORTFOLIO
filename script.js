@@ -3,6 +3,35 @@
 // Sélectionner la zone d'affichage principale
 const rightSide = document.querySelector('.right-side');
 
+// Mobile menu functionality
+const menuToggle = document.querySelector('.menu-toggle');
+const leftSide = document.querySelector('.left-side');
+const navItems = document.querySelectorAll('.cat h3, .cat h4');
+
+// Toggle menu on hamburger click
+if (menuToggle) {
+    menuToggle.addEventListener('click', function() {
+        menuToggle.classList.toggle('active');
+        leftSide.classList.toggle('open');
+    });
+}
+
+// Close menu when clicking on a navigation item
+navItems.forEach(item => {
+    item.addEventListener('click', function() {
+        menuToggle.classList.remove('active');
+        leftSide.classList.remove('open');
+    });
+});
+
+// Close menu when clicking outside of it
+document.addEventListener('click', function(e) {
+    if (!leftSide.contains(e.target) && !menuToggle.contains(e.target)) {
+        menuToggle.classList.remove('active');
+        leftSide.classList.remove('open');
+    }
+});
+
 // Galerie d'images pour l'accueil
 const imagesAccueil = [
     'src/img/IMG.jpg',
@@ -250,6 +279,9 @@ function afficherGalerie(categorie, projets) {
 function afficherAccueil() {
     rightSide.innerHTML = '<img id="home" src="' + imagesAccueil[indexImageActuelle] + '" alt="image accueil">';
     creerBoutonImage();
+    // Close mobile menu
+    menuToggle.classList.remove('active');
+    leftSide.classList.remove('open');
 }
 
 // Initialisation
