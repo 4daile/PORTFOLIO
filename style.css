@@ -33,7 +33,6 @@ body {
     height: 35px;
     background-color: white;
     border: 1px solid #333;
-    border-radius: 8px;
     cursor: pointer;
     z-index: 2000;
     flex-direction: column;
@@ -43,14 +42,15 @@ body {
 }
 
 .menu-toggle span {
-    width: 24px;
-    height: 2px;
+    width: 18px;
+    height: 1px;
     background-color: #333;
     transition: all 0.3s ease;
 }
 
 .menu-toggle.active span:nth-child(1) {
-    transform: rotate(45deg) translate(8px, 8px);
+    /* rotate and drop down to meet third bar */
+    transform: translateY(7px) rotate(45deg);
 }
 
 .menu-toggle.active span:nth-child(2) {
@@ -58,7 +58,8 @@ body {
 }
 
 .menu-toggle.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(8px, -8px);
+    /* rotate and lift up to meet first bar */
+    transform: translateY(-7px) rotate(-45deg);
 }
 
 /* MENU NAVIGATION - TITRE */
@@ -740,7 +741,8 @@ h4 {
     .btn-retour {
         font-size: 0.9em;
         padding: 4px 8px;
-        margin-bottom: 20px;
+        margin-top: 50px;
+        margin-left: 5px;
     }
 
     .right-side {
