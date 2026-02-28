@@ -34,12 +34,12 @@ document.addEventListener('click', function(e) {
 
 // Galerie d'images pour l'accueil
 const imagesAccueil = [
-    'src/img/IMG.jpg',
-    'src/img/1.jpg',
-    'src/img/2.jpg',
-    'src/img/3.jpg',
-    'src/img/4.jpg',
-    'src/img/5.jpg'
+    'src/img/home/IMG.jpg',
+    'src/img/home/1.jpg',
+    'src/img/home/2.jpg',
+    'src/img/home/3.jpg',
+    'src/img/home/4.jpg',
+    'src/img/home/5.jpg'
 ];
 
 let indexImageActuelle = 0;
@@ -48,7 +48,7 @@ let indexImageActuelle = 0;
 function creerBoutonImage() {
     const bouton = document.createElement('div');
     bouton.id = 'bouton-image';
-    bouton.innerHTML = '<img src="src/img/lune.png" alt="changer image">';
+    bouton.innerHTML = '<img src="src/img/home/flower.png" alt="changer image">';
     
     bouton.addEventListener('click', function() {
         // Passer à l'image suivante
