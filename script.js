@@ -48,7 +48,23 @@ let indexImageActuelle = 0;
 function creerBoutonImage() {
     const bouton = document.createElement('div');
     bouton.id = 'bouton-image';
-    bouton.innerHTML = '<img src="src/img/home/flower.png" alt="changer image">';
+
+    const icone = document.createElement('img');
+    icone.src = 'src/img/home/ornement3.png';
+    icone.alt = 'changer image';
+    icone.style.cursor = 'pointer';
+    icone.dataset.orig = icone.src;
+    icone.dataset.hover = 'src/img/home/ornement1.png';
+
+    // Swap src on hover
+    icone.addEventListener('mouseenter', function() {
+        this.src = this.dataset.hover;
+    });
+    icone.addEventListener('mouseleave', function() {
+        this.src = this.dataset.orig;
+    });
+
+    bouton.appendChild(icone);
     
     bouton.addEventListener('click', function() {
         // Passer à l'image suivante
@@ -67,10 +83,8 @@ function ouvrirAPropos() {
         <div class="modal-content">
             <h3>À propos</h3>
             <div class="modal-text">
-                <p>Adèle Bouvard est une artiste et designer graphique basée en France.</p>
-                <p>Son travail explore les frontières entre le numérique et l'analogique, questionnant notre rapport à la technologie, à l'intimité et à la mémoire.</p>
-                <p>Diplômée de [École], elle développe une pratique pluridisciplinaire mêlant édition, installation interactive, graphisme et écriture.</p>
-                <p>Ses projets ont été présentés à [lieux d'exposition].</p>
+                <p>J’étudie le design graphique et numérique à l’ESAD Orléans et j’y prépare un DNA (Diplôme national d’art), où je traite la question de l’outil numérique dans notre ére superapide à travers le geste de la cueillette et l’objet du panier.</p>
+                <p>Je m’intéresse à l’édition, aux supports imprimés, au dessin, mais aussi à l’art numérique et nos rapports au web.</p>
             </div>
         </div>
     `;
@@ -92,10 +106,10 @@ function ouvrirContacts() {
         <div class="modal-content">
             <h3>Contacts</h3>
             <div class="modal-text">
-                <p><strong>Email :</strong> <a href="mailto:adele.bouvard@email.com">adele.bouvard@email.com</a></p>
-                <p><strong>Instagram :</strong> <a href="https://instagram.com/adele.bouvard" target="_blank">@adele.bouvard</a></p>
-                <p><strong>Behance :</strong> <a href="https://behance.net/adeleBouvard" target="_blank">Adèle Bouvard</a></p>
-                <p><strong>LinkedIn :</strong> <a href="https://linkedin.com/in/adeleBouvard" target="_blank">Adèle Bouvard</a></p>
+                <p><strong>(mail)</strong> <a href="mailto:adelebvd@gmail.com">adelebvd@gmail.com</a></p>
+                <p><strong>(instagram)</strong> <a href="https://www.instagram.com/ve1eda?igsh=MTdlbmUxaXRib3E3eg%3D%3D" target="_blank">@ve1eda</a></p>
+                <p><strong>(github)</strong> <a href="https://github.com/4daile" target="_blank">@4daile</a></p>
+                <p><strong>(linkedin)</strong> <a href="https://www.linkedin.com/in/adèle-bouvard-952a62338" target="_blank">Adèle Bouvard</a></p>
             </div>
         </div>
     `;
