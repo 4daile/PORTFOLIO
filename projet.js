@@ -266,6 +266,7 @@ const projetsData = {
             {
                 type: "video",
                 src: "src/img/projets/panier/7.mp4",
+                poster: "src/img/projets/panier/4.jpg",
                 legende: "Vidéo de l'installation, 2024"
             },
             {
@@ -316,6 +317,7 @@ const projetsData = {
             {
                 type: "video",
                 src: "src/img/projets/last-day/22.mp4",
+                poster: "src/img/projets/last-day/LAST_DAY_1.jpg",
                 legende: "Vidéo de l'installation, 2024"
             },
             {
@@ -392,19 +394,21 @@ const projetsData = {
     "✫ I love U": {
         titre: "I love U",
         medias: [
-            {
-                type: "image",
-                src: "src/img/projets/i-love-u/8.jpg",
-            },
+            
             {
                 type: "video",
                 src: "src/img/projets/i-love-u/6.mp4",
+                poster: "src/img/projets/i-love-u/3.jpg",
                 legende: "Vidéo de l'installation, 2024"
             },
             {
                 type: "video",
                 src: "src/img/projets/i-love-u/7.mp4",
                 legende: "Vidéo de l'installation, 2024"
+            },
+            {
+                type: "image",
+                src: "src/img/projets/i-love-u/8.jpg",
             },
             {
                 type: "image",
@@ -439,6 +443,7 @@ const projetsData = {
             {
                 type: "video",
                 src: "src/img/projets/dedale/1.mp4",
+                poster: "src/img/projets/dedale/3.png",
                 legende: "Vidéo de l'installation, 2024"
             },
             {
@@ -490,6 +495,7 @@ const projetsData = {
             {
                 type: "video",
                 src: "src/img/projets/stop-consumerism/4.mp4",
+                poster: "src/img/projets/stop-consumerism/3.jpg",
                 legende: "Vidéo de l'installation, 2024"
             },
             {
@@ -512,7 +518,36 @@ const projetsData = {
 
     "✫ Minitel Adventure": {
         titre: "Minitel Adventure",
-        image: "src/img/projets/minitel.jpg",
+        medias: [
+            {
+                type: "image",
+                src: "src/img/projets/minitel-adventure/1.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/minitel-adventure/2.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/minitel-adventure/3.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/minitel-adventure/4.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/minitel-adventure/5.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/minitel-adventure/6.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/minitel-adventure/7.jpg",
+            },
+        ],
         legende: "Jeu rétro-numérique, 2022",
         description: "Hommage nostalgique à l'ère du Minitel.",
         lien: ""
@@ -520,7 +555,26 @@ const projetsData = {
 
     "✫ Le Cyborg s'émancipe": {
         titre: "Le Cyborg s'émancipe",
-        image: "src/img/projets/cyborg.jpg",
+        medias: [
+            {
+                type: "video",
+                src: "src/img/projets/cyborg/1.1.mp4",
+                poster: "src/img/projets/cyborg/3.jpg",
+                legende: "Vidéo de l'installation, 2024"
+            },
+            {
+                type: "image",
+                src: "src/img/projets/cyborg/1.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/cyborg/2.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/cyborg/3.jpg",
+            }
+        ],
         legende: "Essai multimédia, 2022",
         description: "Réflexion sur le posthumanisme et l'hybridation technologique.",
         lien: ""
@@ -529,7 +583,20 @@ const projetsData = {
     // GRAPHISME
     "✫ Fêtes interconnectées de la BD": {
         titre: "Fêtes interconnectées de la BD",
-        image: "src/img/projets/fetes-bd.jpg",
+        medias: [
+            {
+                type: "image",
+                src: "src/img/projets/affiches-bd/6.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/affiches-bd/5.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/affiches-bd/4.jpg",
+            }
+        ],
         legende: "Identité visuelle, affiches, 2024",
         description: "Création de l'identité graphique complète pour un festival de bande dessinée.",
         lien: ""
@@ -537,7 +604,40 @@ const projetsData = {
 
     "✫ Racines": {
         titre: "Racines",
-        image: "src/img/projets/racines.jpg",
+        medias: [
+            {
+                type: "image",
+                src: "src/img/projets/racines/1.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/racines/2.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/racines/3.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/racines/4.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/racines/5.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/racines/6.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/racines/7.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/racines/8.jpg",
+            }
+        ],
         legende: "Série d'affiches, 2023",
         description: "Exploration typographique et organique.",
         lien: ""
