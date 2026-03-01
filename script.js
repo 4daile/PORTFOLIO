@@ -37,7 +37,7 @@ const imagesAccueil = [
     'src/img/home/IMG.jpg',
     'src/img/home/S1.jpg',
     'src/img/home/S2.jpg',
-    'src/img/home/3.jpg',
+    'src/img/home/S3.jpg',
     'src/img/home/4.jpg',
     'src/img/home/5.jpg'
 ];
