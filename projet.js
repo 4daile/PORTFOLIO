@@ -312,7 +312,78 @@ const projetsData = {
 
     "✫ My last day at work": {
         titre: "My last day at work",
-        image: "src/img/projets/last-day.jpg",
+        medias: [
+            {
+                type: "video",
+                src: "src/img/projets/last-day/22.mp4",
+                legende: "Vidéo de l'installation, 2024"
+            },
+            {
+                type: "video",
+                src: "src/img/projets/last-day/RENDER.mp4",
+                legende: "Vidéo de l'installation, 2024"
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/LAST_DAY_1.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/LAST_DAY_2.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/LAST_DAY_3.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/LAST_DAY_4.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/LAST_DAY_5.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/LAST_DAY_6.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/ascenseur.png",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/ascenseur2.png",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/boutons.png",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/papers2.png",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/POSTER_2.png",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/POSTER_3.png",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/POSTER_BIG.png",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/POSTER_MOUTONS.png",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/last-day/POSTER_WATCHING.png",
+            }
+        ],
         legende: "Fiction interactive, 2023",
         description: "Narration non-linéaire sur le monde du travail.",
         lien: ""
@@ -320,7 +391,43 @@ const projetsData = {
 
     "✫ I love U": {
         titre: "I love U",
-        image: "src/img/projets/i-love-u.jpg",
+        medias: [
+            {
+                type: "image",
+                src: "src/img/projets/i-love-u/8.jpg",
+            },
+            {
+                type: "video",
+                src: "src/img/projets/i-love-u/6.mp4",
+                legende: "Vidéo de l'installation, 2024"
+            },
+            {
+                type: "video",
+                src: "src/img/projets/i-love-u/7.mp4",
+                legende: "Vidéo de l'installation, 2024"
+            },
+            {
+                type: "image",
+                src: "src/img/projets/i-love-u/1.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/i-love-u/2.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/i-love-u/3.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/i-love-u/4.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/i-love-u/5.jpg",
+            }
+            
+        ],
         legende: "Site web expérimental, 2023",
         description: "Déclaration numérique fragmentée.",
         lien: ""
@@ -328,7 +435,29 @@ const projetsData = {
 
     "✫ Dédale": {
         titre: "Dédale",
-        image: "src/img/projets/dedale.jpg",
+        medias: [
+            {
+                type: "video",
+                src: "src/img/projets/dedale/1.mp4",
+                legende: "Vidéo de l'installation, 2024"
+            },
+            {
+                type: "image",
+                src: "src/img/projets/dedale/3.png",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/dedale/4.png",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/dedale/5.png",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/dedale/2.png",
+            }
+        ],
         legende: "Jeu narratif web, 2023",
         description: "Labyrinthe interactif basé sur le mythe grec.",
         lien: ""
@@ -336,7 +465,20 @@ const projetsData = {
 
     "✫ Confess Yourself": {
         titre: "Confess Yourself",
-        image: "src/img/projets/confess.jpg",
+        medias: [
+            {
+                type: "image",
+                src: "src/img/projets/confess-yourself/3.png",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/confess-yourself/2.png",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/confess-yourself/1.jpg",
+            }
+        ],
         legende: "Installation numérique, 2023",
         description: "Espace de confessions anonymes en ligne.",
         lien: ""
@@ -344,7 +486,25 @@ const projetsData = {
 
     "✫ stop consumerism": {
         titre: "stop consumerism",
-        image: "src/img/projets/stop-consumerism.jpg",
+        medias: [
+            {
+                type: "video",
+                src: "src/img/projets/stop-consumerism/4.mp4",
+                legende: "Vidéo de l'installation, 2024"
+            },
+            {
+                type: "image",
+                src: "src/img/projets/stop-consumerism/1.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/stop-consumerism/2.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/stop-consumerism/3.jpg",
+            }
+        ],
         legende: "Campagne web militante, 2022",
         description: "Projet activiste contre la surconsommation.",
         lien: ""
