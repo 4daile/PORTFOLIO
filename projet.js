@@ -4,14 +4,14 @@ const projetsData = {
     // DESSINS & PEINTURES
     "✫ T'attendre": {
         titre: "T'attendre",
-        image: "src/img/projets/tattendre.jpg",
+        image: "src/img/projets/tattendre/FEMME_1.jpg",
         legende: "Peinture acrylique sur toile, 2024",
         description: "Une exploration de l'attente et du temps suspendu à travers des formes organiques et des couleurs douces.",
         lien: "https://www.exemple.com/tattendre"
     },
     
-    "✫ g bcp pensé à toi": {
-        titre: "g bcp pensé à toi",
+    "✫ Obsessed": {
+        titre: "Obsessed",
         medias: [
             {
                 type: "video",
@@ -21,7 +21,7 @@ const projetsData = {
             },
             {
                 type: "image",
-                src: "src/img/IMG.jpg",
+                src: "src/img/projets/obsessed/IMG.jpg",
                 legende: "Interface de l'application"
             }
         ],
@@ -56,8 +56,29 @@ const projetsData = {
     },
 
     "✫ Vénus Préhistoriques": {
-        titre: "Vénus Préhistoriques",
-        image: "src/img/projets/venus.jpg",
+        titre: "Vénus Préhistoriques, de l'objet érotique à l'auto-portrait",
+        medias: [
+            {
+                type: "image",
+                src: "src/img/projets/venus/2.jpg",            
+            },
+            {
+                type: "image",
+                src: "src/img/projets/venus/3.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/venus/1.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/venus/4.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/venus/5.jpg",
+            }
+        ],
         legende: "Zine, 32 pages, impression risographique, 2023",
         description: "Exploration graphique des représentations du corps féminin à travers l'histoire de l'art préhistorique.",
         lien: ""
@@ -65,7 +86,52 @@ const projetsData = {
 
     "✫ Collines de vagues": {
         titre: "Collines de vagues",
-        image: "src/img/projets/collines.jpg",
+        medias: [
+            {
+                type: "image",
+                src: "src/img/projets/collines-vagues/2.jpg",            
+            },
+            {
+                type: "image",
+                src: "src/img/projets/collines-vagues/3.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/collines-vagues/1.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/collines-vagues/4.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/collines-vagues/5.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/collines-vagues/6.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/collines-vagues/7.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/collines-vagues/8.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/collines-vagues/9.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/collines-vagues/10.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/collines-vagues/11.jpg",
+            },
+        ],
         legende: "Livre de photographies, 2023",
         description: "Un carnet de voyage poétique entre terre et mer.",
         lien: ""
@@ -73,7 +139,28 @@ const projetsData = {
 
     "✫ Secrets": {
         titre: "Secrets",
-        image: "src/img/projets/secrets.jpg",
+        medias: [
+            {
+                type: "image",
+                src: "src/img/projets/secret/5.jpg",            
+            },
+            {
+                type: "image",
+                src: "src/img/projets/secret/1.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/secret/3.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/secret/4.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/secret/2.jpg",
+            }
+        ],
         legende: "Livre accordéon, 2023",
         description: "Format dépliant qui révèle progressivement son contenu.",
         lien: ""
@@ -81,7 +168,20 @@ const projetsData = {
 
     "✫ Peau neuve": {
         titre: "Peau neuve",
-        image: "src/img/projets/peau-neuve.jpg",
+         medias: [
+            {
+                type: "image",
+                src: "src/img/projets/peau-neuve/2.jpg",            
+            },
+            {
+                type: "image",
+                src: "src/img/projets/peau-neuve/3.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/peau-neuve/1.jpg",
+            }
+        ],
         legende: "Publication, 48 pages, 2022",
         description: "Réflexion sur la transformation et le renouveau.",
         lien: ""
@@ -90,7 +190,54 @@ const projetsData = {
     // DIGITAL
     "✫ Amnesia": {
         titre: "Amnesia",
-        image: "src/img/projets/amnesia.jpg",
+        medias: [
+            {
+                type: "video",
+                src: "src/img/projets/amnesia/AMNESIA_VIDEO.mp4",
+                poster: "src/img/projets/amnesia/AMNESIA_HOME.jpg", // Image de prévisualisation
+                legende: "Vidéo de l'installation, 2024"
+            },
+            {
+                type: "image",
+                src: "src/img/projets/amnesia/FIN1.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/amnesia/FIN2.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/amnesia/FIN3.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/amnesia/PAGE1.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/amnesia/PAGE2.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/amnesia/PAGE3.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/amnesia/PAGE4.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/amnesia/PAGE5.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/amnesia/PAGE6.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/amnesia/PAGE7.jpg",
+            },
+        ],
         legende: "Installation interactive, 2024",
         description: "Une expérience numérique immersive questionnant la mémoire et l'oubli à l'ère digitale.",
         lien: "https://www.exemple.com/amnesia"
@@ -98,7 +245,16 @@ const projetsData = {
 
     "✫ Passing Stories": {
         titre: "Passing Stories",
-        image: "src/img/projets/passing-stories.jpg",
+        medias: [
+            {
+                type: "image",
+                src: "src/img/projets/passing-stories/2.png",            
+            },
+            {
+                type: "image",
+                src: "src/img/projets/passing-stories/1.png",
+            }
+        ],
         legende: "Application web, 2024",
         description: "Plateforme collaborative de récits éphémères.",
         lien: "https://www.exemple.com/passing-stories"
@@ -106,7 +262,49 @@ const projetsData = {
 
     "✫ PANIER": {
         titre: "PANIER",
-        image: "src/img/projets/panier.jpg",
+        medias: [
+            {
+                type: "video",
+                src: "src/img/projets/panier/7.mp4",
+                legende: "Vidéo de l'installation, 2024"
+            },
+            {
+                type: "image",
+                src: "src/img/projets/panier/1.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/panier/2.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/panier/3.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/panier/4.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/panier/5.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/panier/6.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/panier/7.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/panier/8.jpg",
+            },
+            {
+                type: "image",
+                src: "src/img/projets/panier/9.jpg",
+            }
+        ],
         legende: "Projet web interactif, 2024",
         description: "Exploration critique de la consommation en ligne.",
         lien: "https://www.exemple.com/panier"
